@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "corne-choc.dtsi"
+#include "chippy.dtsi"
 
 &default_transform {
     col-offset = <6>;
