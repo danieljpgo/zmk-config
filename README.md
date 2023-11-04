@@ -70,7 +70,7 @@
 
 ## License
 
-This project is under the [MIT license](https://github.com/danieljpgo/iachef/blob/master/LICENSE).
+This project is under the [MIT license](https://github.com/danieljpgo/zmk-config/blob/master/LICENSE).
 
 <div>Released in 2023.</div>
 
