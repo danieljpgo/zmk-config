@@ -58,9 +58,6 @@
 #define RH1 40
 #define RH2 41
 
-&lt {
-    tapping-term-ms = <100>;
-};
 
 / {
     conditional_layers {
