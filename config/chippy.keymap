@@ -310,7 +310,7 @@
 &kp TILDE  &kp EXCL   &kp AT      &kp HASH              &kp DLLR               &kp PRCNT         &kp CARET  &kp AMPS        &kp ASTERISK      &kp UNDERSCORE  &kp PLUS      &kp BACKSLASH
 &trans     &kp GRAVE  &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE    &kp EQUAL  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp PERCENT     &kp COLON     &kp DOUBLE_QUOTES
 &trans     &kp TILDE  &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS         &kp PLUS   &kp LESS_THAN   &kp GREATER_THAN  &kp BACKSLASH   &kp QUESTION  &kp PIPE
-                                  &kp MINUS             &trans                 &trans            &trans     &trans          &trans
+                                  &kp EQUAL             &kp MINUS              &trans            &trans     &trans          &trans
             >;
         };
 
