@@ -262,10 +262,10 @@
 
         mac_layer {
             bindings = <
-&kp ESCAPE            &kp Q  &kp W           &kp E                    &kp R          &kp T        &kp Y          &kp U      &kp I                 &kp O            &kp P     &kp ENTER
-&mt LEFT_CONTROL TAB  &kp A  &mt LEFT_ALT S  &mt LCTRL D              &kp F          &kp G        &kp H          &kp J      &mt RCTRL K           &mt RIGHT_ALT L  &kp SEMI  &kp SQT
-&kp LEFT_SHIFT        &kp Z  &kp X           &kp C                    &kp V          &kp B        &kp N          &kp M      &kp COMMA             &kp DOT          &kp FSLH  &kp RIGHT_SHIFT
-                                             &mt LEFT_COMMAND ESCAPE  &lt LOWER TAB  &kp SPACE    &kp BACKSPACE  &mo RAISE  &mt RIGHT_ALT RETURN
+&kp ESCAPE            &kp Q  &kp W  &kp E                    &kp R          &kp T        &kp Y          &kp U      &kp I                 &kp O    &kp P     &kp ENTER
+&mt LEFT_CONTROL TAB  &kp A  &kp S  &kp D                    &kp F          &kp G        &kp H          &kp J      &kp K                 &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT        &kp Z  &kp X  &kp C                    &kp V          &kp B        &kp N          &kp M      &kp COMMA             &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                                    &mt LEFT_COMMAND ESCAPE  &lt LOWER TAB  &kp SPACE    &kp BACKSPACE  &mo RAISE  &mt RIGHT_ALT RETURN
             >;
         };
 
@@ -298,19 +298,19 @@
 
         lower_layer {
             bindings = <
-&trans  &kp N1    &kp N2        &kp N3     &kp N4    &kp N5        &kp N6      &kp N7         &kp N8       &kp N9     &kp N0  &trans
-&trans  &trans    &kp LEFT_ALT  &kp LCTRL  &trans    &trans        &kp LEFT    &kp DOWN       &kp UP       &kp RIGHT  &trans  &trans
-&trans  &kp CAPS  &kp C_PREV    &kp C_PP   &kp C_PP  &kp C_NEXT    &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &trans
-                                &trans     &trans    &trans        &kp DELETE  &trans         &trans
+&trans  &kp N1    &kp N2      &kp N3    &kp N4    &kp N5        &kp N6      &kp N7         &kp N8       &kp N9     &kp N0  &trans
+&trans  &trans    &trans      &trans    &trans    &trans        &kp LEFT    &kp DOWN       &kp UP       &kp RIGHT  &trans  &trans
+&trans  &kp CAPS  &kp C_PREV  &kp C_PP  &kp C_PP  &kp C_NEXT    &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &trans
+                              &trans    &trans    &trans        &kp DELETE  &trans         &trans
             >;
         };
 
         raise_layer {
             bindings = <
-&kp TILDE  &kp EXCL   &kp AT      &kp HASH              &kp DLLR               &kp PRCNT         &kp CARET  &kp AMPS        &kp ASTERISK      &kp UNDERSCORE  &kp PLUS      &kp BACKSLASH
-&trans     &kp GRAVE  &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE    &kp EQUAL  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp PERCENT     &kp COLON     &kp DOUBLE_QUOTES
-&trans     &kp TILDE  &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS         &kp PLUS   &kp LESS_THAN   &kp GREATER_THAN  &kp BACKSLASH   &kp QUESTION  &kp PIPE
-                                  &kp EQUAL             &kp MINUS              &trans            &trans     &trans          &trans
+&trans  &kp EXCL   &kp AT      &kp HASH              &kp DLLR               &kp PRCNT         &kp CARET  &kp AMPS        &kp ASTERISK      &kp UNDERSCORE  &kp PLUS      &kp BACKSLASH
+&trans  &kp GRAVE  &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE    &kp EQUAL  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp PERCENT     &kp COLON     &kp DOUBLE_QUOTES
+&trans  &kp TILDE  &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS         &kp PLUS   &kp LESS_THAN   &kp GREATER_THAN  &kp BACKSLASH   &kp QUESTION  &kp PIPE
+                               &trans                &kp MINUS              &kp EQUAL         &trans     &trans          &trans
             >;
         };
 
